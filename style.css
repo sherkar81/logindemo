@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+body{
+	background: #12e2c9;
+	font-family: 'Trebuchet MS';
+
+}
+
+.main{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 3px #e53939 solid;
+}
+
+.main .left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+	background: #e53939;
+}
+
+.main .left h1{
+	font-family: "Suez One";
+	letter-spacing: 10px;
+	margin-top: 100px;
+	color: #ffbf37;
+	text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.left form input{
+	text-align: center;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	background: #f8f8f8;
+	border-radius: 25px;
+	border: none;
+}
+
+.left form input:focus{
+	outline: none;
+}
+
+.left form input[type="submit"]{
+	background: #ffbf37;
+	color: #000;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.left form input[type="submit"]:hover{
+	background: #000;
+	color: #ffbf37;
+}
+
+.left p.forget:hover{
+	cursor: pointer;
+	color: #FBFFFF;
+	text-decoration: none;
+} 
+
+.left p.or{
+	font-size: 24px;
+	font-weight: bold;
+    width: 50px;
+    height: 40px;
+    padding-top: 10px;
+    background: #e53939;
+    border-radius: 50%;
+    position: absolute;
+    border: 6px solid #ffbf37;
+    left: 94%;
+    transition: 0.8s;
+    transition-property: transform;
+}
+.left p.or:hover{
+	background: #000;
+	color: #ffbf37;
+	font-weight: bold;
+	border: 6px solid #000;
+	transform: rotate(360deg) scale(1.5);
+	transform: ;
+}
+
+.main .right {
+	text-align: center;
+}
+
+.main .right h1{
+	margin-top: 100px;
+	font-family: "Suez One";
+	letter-spacing: 10px;
+	margin-top: 100px;
+	color: #000;
+	text-shadow: 4px 6px 8px rgba(255,0, 255, 0.3);
+}
+
+.right .social{
+	margin-top: 40px;
+}
+
+.social button{
+	border: none;
+	padding: 15px;
+	width: 50px;
+	font-size: 20px;
+	background: #fff;
+	margin-right: 10px;
+	border-radius: 50%;
+	transition: 0.3s;
+	transition-property: transform;
+}
+
+.social .twitter{
+	color: #00aced ;
+	cursor: pointer;
+}
+
+.social .twitter:hover{
+	color: #fff ;
+	background: #00aced;
+	transform: scale(1.5);
+
+}
+
+.social .facebook{
+	color: #1877f2;
+	cursor: pointer;
+}
+.social .facebook:hover{
+ background: #1877f2;
+ color: #fff;
+	transform: scale(1.5);
+	
+}
+
+.social .whatsapp{
+	color: #4FCE5D;
+	cursor: pointer;
+}
+.social .whatsapp:hover{
+ background: #4FCE5D;
+ color: #fff;
+	transform: scale(1.5);
+	
+}
+
+.social .instagram{
+	color:  #fd1d1d;
+	cursor: pointer;
+	
+}
+
+.social .instagram:hover{
+ background: linear-gradient(45deg, #405de6, #5851DB, #833AB4, #C13584, #e13584, #e1306c, #fd1d1d);
+ color: #fff;
+	transform: scale(1.5);
+}
+
+.social .discord{
+	color:  #738ADB;
+	cursor: pointer;
+}
+
+.social .discord:hover{
+	color: #fff;
+	background: #738adb;
+	transform: scale(1.5);
+}
